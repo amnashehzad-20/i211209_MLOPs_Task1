@@ -18,4 +18,4 @@ jobs:
         with:
           vercel-token: ${{ secrets.VERCEL_SECRET }}
           working-directory: ./
-          vercel-args: --prod --yes  # Correct input for Vercel CLI arguments
+          vercel-args: --prod --yes  
